@@ -20,7 +20,7 @@ Install the requirements using the following code:
 <pre>pip install -r requirements.txt</pre>
 Utilization
 
-# Training MAGNet
+# Training GENAug-Seg
 
 MAGNet can be trained on either your own EM dataset or the internal WO₃ dataset (available upon request). Prior to training, users are advised to configure key hyperparameters, including the choice of segmentation architecture (AttentionUNet or UNet) and the early stopping patience parameters. During training, the script records detailed logs and periodically saves model checkpoints for the segmentation network (Seg.pth), generator (Gen.pth), and discriminators (D1.pth and D2.pth) within the designated output_dir.
 
