@@ -1,6 +1,6 @@
-# MAGNet
+# GENAug-Seg
 
-MAGNet (Morphology-Aware Generative Network) is our proposed framework for accurate nanoparticle segmentation in electron microscopy (EM) images under data-scarce conditions.
+GENAug-Seg is our proposed framework for accurate nanoparticle segmentation in electron microscopy (EM) images under data-scarce conditions.
 The model comprises a self-attention U-Net trained from scratch on a limited set of real EM images to capture morphology-specific nanoparticle structures while suppressing background noise.
 This pretrained segmentation model is then embedded into a CycleGAN-inspired generative framework (cGAN-Seg), enabling the synthesis of realistic EM image–mask pairs that are structurally consistent through cycle consistency loss.
 
