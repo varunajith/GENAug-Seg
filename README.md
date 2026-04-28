@@ -11,7 +11,7 @@ By coupling segmentation and generation in a unified framework, MAGNet achieves 
 # Dataset
 
 The EM dataset used in this study consists of WO₃ nanoparticle images curated and annotated in-house.
-Due to institutional and data-sharing restrictions, the dataset is not publicly available, but can be accessed upon reasonable request to the corresponding author.
+The dataset is available at -"https://www.kaggle.com/datasets/anindyapal111/fw-nanoparticles-sem-images"
 
 # Requirements
 
